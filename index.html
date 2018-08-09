@@ -15,7 +15,15 @@
     <style>p{
         text-align: justify;
         color: #2F4F4F;
-        }</style> 
+        }
+       
+        #effect{-webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+    transition: width 2s, height 2s, transform 2s;}
+       
+        #effect:hover{
+          padding-left: 100px;
+        }
+        </style> 
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -58,7 +66,7 @@
       
       <aside style="width: 450px;  background-image: url(img/sir1.jpg);"></aside>
       <main style="margin-top: -20px;">
-        <h1 class="mb-0">Hi, I'm Santosh Joshi</h1>
+        <h1 id ="effect" class="mb-0"  style="-webkit-transition: width 2s, height 4s;transition: width 2s, height 4s;">Hi, I'm Santosh Joshi</h1>
         <div class="mb-5">
         <p class="lead mb-3">Scientist 'E'</p>
         <p class="lead mb-3" style="font-size: 17px">Aryabhatta Research Institute of Observational Sciences (ARIES),
